@@ -64,14 +64,53 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(lightsalmon, tomato);
     border-image-slice: 1;
+    background-color: wheat;
 }
 
 #baby{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
+    background-color: lightblue;
 }
 
-footer p{
+.center{
     text-align: center;
+}
+
+.img1 img{
+    width: 27%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 7%;
+    
+}
+.img2 img{
+   width: 27%;
+   margin-top: 5%;
+   margin-left: 3%;
+}
+
+.work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.footer span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-highlight{
+    margin: 3% 30%;
+    background-image: linear-gradient(rgb(252, 165, 244), rgb(240, 71, 255));
+    padding:20px 40px;
+    border-radius: 3px;
+}
+.footer{
+    height: 300px;
+    background-image: url(images/footer-bg.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
